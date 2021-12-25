@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'MajorisRegular';
+  src: url('../fonts/MajorisRegular.svg#MajorisRegular') format('svg'),
+       url('../fonts/MajorisRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'majoris';
+  src: url('../fonts/majoris.eot');
+  src: url('../fonts/majoris.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/majoris.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

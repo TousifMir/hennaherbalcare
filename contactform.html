@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152943986-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-152943986-1');
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact Form</title> 
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="description" content="Ancient Unani method to prevent hair fall with the help of pure oils and natural herbs. This homemade oil is free from chemicals and intended to help people who are suffering from hair problems.">
+    <meta name="keywords" content="Henna Herbal Hair Oil, Henna Herbal Care, Hair Fall Prevention Oil, Hair Growth Oil, Oil to prevent hair loss, Oil to grow hair long & strong">
+    <meta name="author" content="gingerupit.com">
+
+    <!-- CSS Files -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- JavaScript Files -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/owl.carousel.min.js"></script>    -->
+		<!-- <script src="js/language/langs.min.js"></script>
+    <script src="js/language/jquery.multilang.min.js"></script>     -->
+    <!-- <script src="js/main.js"></script>  -->
+
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="body" style="overflow: hidden;">
+	<form class="contact-form-2" name="contactform" method="post" action="./php/contact.php">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+				<!-- <label for="inputName">Name</label> -->
+				<input type="text" class="form-control" autocomplete="off" name="inputName" required placeholder="Name*">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+				<!-- <label for="inputPhone">Phone</label> -->
+				<input type="text" class="form-control" autocomplete="off" name="inputPhone" required placeholder="Phone*">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+				<!-- <label for="inputEmail">Email</label> -->
+				<input type="email" class="form-control" name="inputEmail" required placeholder="Email*">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+				<!-- <label for="inputPhone">Phone</label> -->
+				<input type="text" class="form-control" autocomplete="off" name="inputSubject" required placeholder="Subject*">
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="form-group">
+				<!-- <label for="inputMessage">Message</label> -->
+				<textarea class="form-control" autocomplete="off" name="inputMessage" required placeholder="Message*"></textarea>
+				</div>
+			</div>
+			<div class="col-md-12 align-center mt-15">
+				<div class="form-group" style="text-align: center;">
+				<button type="submit" class="btn">Submit</button>
+				<button type="reset" class="btn">Reset</button>
+				</div>
+			</div>
+		</div>
+	</form>
+  </body>
+</html>
